@@ -8,7 +8,6 @@ fig = figure;
 plot(t, y);
 xlabel('Time')
 ylabel('Intensity')
-ylim([-1.2 1.2])
 title('Noisy Modulated Signal in Time Domain')
 saveas(fig, 'png/Noisy Modulated Signal in Time Domain.png')
 
@@ -39,7 +38,6 @@ a = max([indices(1) indices(looper)]); % index for larger frequency
 b = min([indices(1) indices(looper)]); % index for lower frequency
 
 fc = (f(a) + f(b))/2; % Carrier Frequency
-fm = (f(a) - f(b))/2; % Message Frequency
 
 fprintf('Carrier frequency is %fHz', fc);
 
@@ -48,13 +46,12 @@ fprintf('Carrier frequency is %fHz', fc);
 carrier = sin(2*pi*fc*t);
 square = y .* carrier';
 
-demod_y = lowpass(square, fc/2, fs);
+demod_y = 2*lowpass(square, fc/2, fs);
 
 fig = figure;
 plot(t, demod_y);
 xlabel('Time')
 ylabel('Intensity')
-ylim([-0.8 0.8])
 title('Noisy Demodulated Signal in Time Domain')
 saveas(fig, 'png/Noisy Demodulated Signal in Time Domain.png')
 
@@ -87,7 +84,7 @@ fig = figure;
 plot(t, demod_denoise_y);
 xlabel('Time')
 ylabel('Intensity')
-ylim([-0.8 0.8])
+ylim([-1 1])
 title('Filtered Demodulated Signal in Time Domain')
 saveas(fig, 'png/Filtered Demodulated Signal in Time Domain.png')
 
