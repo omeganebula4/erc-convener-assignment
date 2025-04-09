@@ -1,3 +1,0 @@
-- I have designed the cabinet designators keeping ease of access in mind, i.e., I have tried my best to keep frequently used (what I guess are frequently used) items near the middle/top and rarely used items at the bottom.
-- The resistors, capacitors, inductors box can have other frequently used supplies like LED, op-amps (maybe?).
-- Sensors can be put in the resistors/ICs/misc. section depending on how frequently they are used.
