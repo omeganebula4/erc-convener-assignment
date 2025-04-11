@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/harshit/erc-ros-assignment/build/dynamixel_sdk_custom_interfaces/cmake_install.cmake",
+		"/home/harshit/erc-ros-assignment/build/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,54 @@
+[0.065s] Invoking command in '/home/harshit/erc-ros-assignment/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake /home/harshit/erc-ros-assignment/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harshit/erc-ros-assignment/install/turtlebot3_cartographer
+[0.091s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.091s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.091s]   CMake.
+[0.091s] 
+[0.091s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.092s]   to tell CMake that the project requires at least <min> but has been updated
+[0.092s]   to work with policies introduced by <max> or earlier.
+[0.092s] 
+[0.092s] [0m
+[0.353s] -- The C compiler identification is GNU 11.4.0
+[0.562s] -- The CXX compiler identification is GNU 11.4.0
+[0.590s] -- Detecting C compiler ABI info
+[0.770s] -- Detecting C compiler ABI info - done
+[0.830s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.830s] -- Detecting C compile features
+[0.830s] -- Detecting C compile features - done
+[0.864s] -- Detecting CXX compiler ABI info
+[1.085s] -- Detecting CXX compiler ABI info - done
+[1.154s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.155s] -- Detecting CXX compile features
+[1.157s] -- Detecting CXX compile features - done
+[1.192s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.689s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.929s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.444s] -- Configuring done (2.4s)
+[2.460s] -- Generating done (0.0s)
+[2.464s] -- Build files have been written to: /home/harshit/erc-ros-assignment/build/turtlebot3_cartographer
+[2.490s] Invoked command in '/home/harshit/erc-ros-assignment/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake /home/harshit/erc-ros-assignment/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harshit/erc-ros-assignment/install/turtlebot3_cartographer
+[2.491s] Invoking command in '/home/harshit/erc-ros-assignment/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake --build /home/harshit/erc-ros-assignment/build/turtlebot3_cartographer -- -j8 -l8
+[2.559s] Invoked command in '/home/harshit/erc-ros-assignment/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake --build /home/harshit/erc-ros-assignment/build/turtlebot3_cartographer -- -j8 -l8
+[2.571s] Invoking command in '/home/harshit/erc-ros-assignment/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake --install /home/harshit/erc-ros-assignment/build/turtlebot3_cartographer
+[2.593s] -- Install configuration: ""
+[2.594s] -- Execute custom install script
+[2.598s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[2.612s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[2.626s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[2.637s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[2.656s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[2.671s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[2.682s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[2.694s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[2.708s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[2.726s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[2.738s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[2.749s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[2.769s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[2.791s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[2.803s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[2.816s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[2.853s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[2.885s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[2.889s] -- Symlinking: /home/harshit/erc-ros-assignment/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[2.921s] Invoked command in '/home/harshit/erc-ros-assignment/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake --install /home/harshit/erc-ros-assignment/build/turtlebot3_cartographer

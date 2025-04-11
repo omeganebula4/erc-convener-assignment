@@ -1,0 +1,48 @@
+[0.724s] Invoking command in '/home/harshit/erc-ros-assignment/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/turtlebot3_msgs:/home/harshit/erc-ros-assignment/install/turtlebot3:/home/harshit/erc-ros-assignment/install/turtlebot3_bringup:/home/harshit/erc-ros-assignment/install/turtlebot3_node:/home/harshit/erc-ros-assignment/install/turtlebot3_navigation2:/home/harshit/erc-ros-assignment/install/turtlebot3_description:/home/harshit/erc-ros-assignment/install/turtlebot3_cartographer:/home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples:/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:/home/harshit/mrt_ws/install/aruco_detection_interfaces:/home/harshit/erc-ros-assignment/install/turtlebot3_teleop:/home/harshit/erc-ros-assignment/install/turtlebot3_example:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake /home/harshit/erc-ros-assignment/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harshit/erc-ros-assignment/install/turtlebot3_fake_node
+[0.749s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.749s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.749s]   CMake.
+[0.749s] 
+[0.749s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.749s]   to tell CMake that the project requires at least <min> but has been updated
+[0.749s]   to work with policies introduced by <max> or earlier.
+[0.749s] 
+[0.750s] [0m
+[0.827s] -- The C compiler identification is GNU 11.4.0
+[0.966s] -- The CXX compiler identification is GNU 11.4.0
+[0.981s] -- Detecting C compiler ABI info
+[1.099s] -- Detecting C compiler ABI info - done
+[1.131s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.132s] -- Detecting C compile features
+[1.133s] -- Detecting C compile features - done
+[1.155s] -- Detecting CXX compiler ABI info
+[1.292s] -- Detecting CXX compiler ABI info - done
+[1.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.328s] -- Detecting CXX compile features
+[1.329s] -- Detecting CXX compile features - done
+[1.356s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.728s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.900s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.130s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.333s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.369s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.413s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.698s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.765s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.980s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.000s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.352s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[3.504s] -- Found FastRTPS: /opt/ros/humble/include
+[3.764s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.838s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.974s] -- Found Threads: TRUE
+[4.144s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.213s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[4.298s] -- Found tf2_msgs: 0.25.12 (/opt/ros/humble/share/tf2_msgs/cmake)
+[4.478s] -- Found turtlebot3_msgs: 2.3.0 (/home/harshit/erc-ros-assignment/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[4.735s] -- Configuring done (4.0s)
+[4.765s] -- Generating done (0.0s)
+[4.770s] -- Build files have been written to: /home/harshit/erc-ros-assignment/build/turtlebot3_fake_node

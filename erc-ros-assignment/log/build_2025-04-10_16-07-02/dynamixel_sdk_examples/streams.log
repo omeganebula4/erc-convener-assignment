@@ -1,0 +1,85 @@
+[0.083s] Invoking command in '/home/harshit/erc-ros-assignment/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:/home/harshit/mrt_ws/install/aruco_detection_interfaces:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble LD_LIBRARY_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/lib:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/harshit/erc-ros-assignment/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples
+[0.113s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.113s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.114s]   CMake.
+[0.114s] 
+[0.114s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.114s]   to tell CMake that the project requires at least <min> but has been updated
+[0.114s]   to work with policies introduced by <max> or earlier.
+[0.115s] 
+[0.115s] [0m
+[0.342s] -- The C compiler identification is GNU 11.4.0
+[0.756s] -- The CXX compiler identification is GNU 11.4.0
+[0.786s] -- Detecting C compiler ABI info
+[1.054s] -- Detecting C compiler ABI info - done
+[1.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.169s] -- Detecting C compile features
+[1.173s] -- Detecting C compile features - done
+[1.237s] -- Detecting CXX compiler ABI info
+[1.652s] -- Detecting CXX compiler ABI info - done
+[1.758s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.759s] -- Detecting CXX compile features
+[1.761s] -- Detecting CXX compile features - done
+[1.844s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.596s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[2.891s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.233s] -- Found dynamixel_sdk: 3.8.3 (/home/harshit/erc-ros-assignment/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[3.245s] -- Found dynamixel_sdk_custom_interfaces: 3.8.3 (/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[3.486s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.522s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.563s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.611s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.796s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.981s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.997s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.302s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[4.457s] -- Found FastRTPS: /opt/ros/humble/include
+[4.717s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.775s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.899s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.901s] -- Found Threads: TRUE
+[5.086s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[5.101s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.405s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.409s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.410s] -- Configured cppcheck include dirs: /home/harshit/erc-ros-assignment/src/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[5.410s] -- Configured cppcheck exclude dirs and/or files: 
+[5.413s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.413s] -- Configured cpplint exclude dirs and/or files: 
+[5.415s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.417s] -- Added test 'lint_cmake' to check CMake code style
+[5.418s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.421s] -- Added test 'uncrustify' to check C / C++ code style
+[5.422s] -- Configured uncrustify additional arguments: 
+[5.423s] -- Added test 'xmllint' to check XML markup files
+[5.436s] -- Configuring done (5.3s)
+[5.459s] -- Generating done (0.0s)
+[5.464s] -- Build files have been written to: /home/harshit/erc-ros-assignment/build/dynamixel_sdk_examples
+[5.484s] Invoked command in '/home/harshit/erc-ros-assignment/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:/home/harshit/mrt_ws/install/aruco_detection_interfaces:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble LD_LIBRARY_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/lib:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/harshit/erc-ros-assignment/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples
+[5.487s] Invoking command in '/home/harshit/erc-ros-assignment/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:/home/harshit/mrt_ws/install/aruco_detection_interfaces:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble LD_LIBRARY_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/lib:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/harshit/erc-ros-assignment/build/dynamixel_sdk_examples -- -j8 -l8
+[5.538s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[33.683s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[35.028s] [100%] Built target read_write_node
+[35.048s] Invoked command in '/home/harshit/erc-ros-assignment/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:/home/harshit/mrt_ws/install/aruco_detection_interfaces:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble LD_LIBRARY_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/lib:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/harshit/erc-ros-assignment/build/dynamixel_sdk_examples -- -j8 -l8
+[35.051s] Invoking command in '/home/harshit/erc-ros-assignment/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:/home/harshit/mrt_ws/install/aruco_detection_interfaces:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble LD_LIBRARY_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/lib:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/harshit/erc-ros-assignment/build/dynamixel_sdk_examples
+[35.064s] -- Install configuration: ""
+[35.069s] -- Execute custom install script
+[35.072s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[35.079s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+[35.093s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[35.106s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[35.120s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[35.133s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[35.145s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[35.160s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[35.173s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[35.184s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[35.203s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[35.210s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[35.224s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[35.237s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[35.249s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[35.263s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[35.275s] -- Symlinking: /home/harshit/erc-ros-assignment/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[35.293s] Invoked command in '/home/harshit/erc-ros-assignment/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces:/home/harshit/erc-ros-assignment/install/dynamixel_sdk:/home/harshit/mrt_ws/install/aruco_detection_interfaces:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble LD_LIBRARY_PATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/lib:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/harshit/erc-ros-assignment/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/harshit/erc-ros-assignment/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/harshit/erc-ros-assignment/build/dynamixel_sdk_examples

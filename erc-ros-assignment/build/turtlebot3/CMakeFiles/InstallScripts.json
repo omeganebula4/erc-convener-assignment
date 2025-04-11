@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/harshit/erc-ros-assignment/build/turtlebot3/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
